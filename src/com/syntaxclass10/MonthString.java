@@ -11,8 +11,8 @@ public class MonthString {
 		             {"June ","July","August"},
 		             {"September", "October","November"}
 		};
-		System.out.println(month[1][2]);
-		System.out.println(month[0][2]);
+		System.out.println(month[1][1]);
+		System.out.println(month[0][1]);
 		}
 	}
 

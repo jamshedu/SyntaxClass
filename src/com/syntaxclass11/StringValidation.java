@@ -17,7 +17,7 @@ public class StringValidation {
 		System.out.println(str1.equalsIgnoreCase(str2));
 		
 		String expected ="Home - Syntax Technologies";
-		String actual ="  Home - Technologies ";
+		String actual ="Home - Technologies";
 		
 		if (actual.equals(expected)) {
 			System.out.println("Test case fails. Titles are matched");

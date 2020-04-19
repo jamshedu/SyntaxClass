@@ -11,13 +11,13 @@ public class MoreLogiclOperators {
 		 * if day 4--> review class 
 		 */
 		
-		int day = 6 ;
+		int day = 7 ;
 		
-		if (day ==2 && day ==3) {
+		if (day ==2 || day ==3) {
 			System.out.println("Today is SDLC");
-		}else if (day==6 && day==7) {
+		}else if (day==6 || day==7) {
 			System.out.println("Today is Java class");
-		}else if (day==1 && day==5) {
+		}else if (day==1 || day==5) {
 			System.out.println("Today is no class, it is day off");
 		}else if (day==4) {
 			System.out.println("Today is  a review class with Elion");

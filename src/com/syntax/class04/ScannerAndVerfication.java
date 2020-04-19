@@ -21,13 +21,14 @@ public class ScannerAndVerfication {
 		int num2 = input.nextInt();
 		
 		if (num1>num2) {
-			System.out.println(num1+ "is large than " + num2);
+			System.out.println(num1+ " is large than " + num2);
 			
 		}else if (num1<num2) {
-			System.out.println(num1 + "is large than " + num2);
+			System.out.println(num1 + " is less than " + num2);
 		}
 		else {
-			System.out.println(num1 + "is equal to " + num2);
+			System.out.println("First "+num1 + " is equal to the second " + num2);
+			
 		}
 	 
 			

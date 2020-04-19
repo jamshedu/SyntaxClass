@@ -37,7 +37,12 @@ public class Recap {
 		str6=str6.trim().concat(str7);
 		System.out.println(str6);
 		
+		System.out.println("=====");
 		
+		String c = "Hello i love java";
+		  boolean var;
+		  var = c.startsWith("hello");
+		  System.out.println(var);
 		
 		     
 	}

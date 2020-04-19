@@ -18,19 +18,21 @@ public class NestedIfContinues {
 		
 		if (allergy) {
 			System.out.println("Please answer below");
+		
+		  
 			if (orangeAllergy) {
 				System.out.println("Do not eat oranges" );
 			}
-			if (appleAllergy) {
+		if (appleAllergy) {
 				System.out.println("Do not eat apple");
 			}
-			if (kiwiAllergy) {
+		   if (kiwiAllergy) {
 				System.out.println("Do not eat kiwi");
-			}
-		}else {
+		   
+		   }else {
 				System.out.println("You are healthy");
 			}
 		}
-	}
-
+		}
+}
 

@@ -11,9 +11,9 @@ public class Q1 {
 		int a = 100;
 		int b = 200;
 		
-		a=a+b;//30
-		b=a-b;//30-20=10
-		a=a-b;
+		a=a+b;//100+200=300
+		b=a-b;//300-200=100
+		a=a-b; // 300-100=200
 		
 		System.out.println("The value of a = "+a);
 		System.out.println("The value of b = "+b);

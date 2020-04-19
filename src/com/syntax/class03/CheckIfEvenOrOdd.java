@@ -13,7 +13,7 @@ public class CheckIfEvenOrOdd {
 	//	  System.out.println("Number is odd");
 	 // }
 		
-		int i = 125;
+		int i = 124;
 		int remainder = i%2;
 		if (remainder ==0) {
 			System.out.println("Number is even");

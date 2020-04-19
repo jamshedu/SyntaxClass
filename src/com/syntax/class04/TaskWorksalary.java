@@ -8,11 +8,13 @@ public class TaskWorksalary {
 		Scanner in = new Scanner(System.in);
 		
 		System.out.println("Enter number of worked years:");
-		
 		int numYears = in.nextInt();
+		
 		int bonus= in.nextInt();
+		
 		if (numYears>=5) {
 			System.out.println("You are eligibale for a bonus");
+			
 			System.out.println("Enter your salary:");
 			int salary = in.nextInt();
 			

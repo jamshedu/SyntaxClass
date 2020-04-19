@@ -15,7 +15,7 @@ public class Recap {
 		
 		for ( int i =1 ; i <=9; i++) {
 			for (int y =0; y <=9; y++) {
-				System.out.println(i+ " "+y);
+				System.out.print(i+ " "+y);
 			}
 		}
 		System.out.println("==================");
@@ -24,9 +24,9 @@ public class Recap {
 			for (int b = 0; b<=59; b++) {
 				
 		    if (b <10) {
-		    	System.out.println(a+":0" +b);
+		    	System.out.print(a+":0" +b);
 		    }else {
-		    	System.out.println(a+ ":"+b);
+		    	System.out.print(a+ ":"+b);
 		    }
 			}
 		}
@@ -36,7 +36,7 @@ public class Recap {
 			for (int d = 9; d<=9; d++) {
 				for (int e = 0; e<= 9; e++) {
 					for (int f =0; f<=9; f++) {
-						System.out.println(c+""+d+e+f);
+						System.out.print(c+""+d+e+f);
 					}
 				}
 			}

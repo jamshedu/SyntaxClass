@@ -8,7 +8,7 @@ public class Task2HW {
 		Scanner rom =new Scanner(System.in);
 		System.out.println("Please enter your score");
 		int sum = rom.nextInt();
-		System.out.println("Please enter");
+		//System.out.println("Please enter");
 		System.out.println();
 		if (sum>=90) {
 			System.out.println("Your grade is A");

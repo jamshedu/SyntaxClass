@@ -12,13 +12,18 @@ public class MorePatterns {
 		}
 		System.out.println("===============");
 		
-		for (int s= 1; s<=5; s++) {
+		for (int s= 5; s>=1; s--) {
 			for (int e =1; e<=s; e++) {
 				System.out.print(e);
 			}
 			System.out.println();
 		}
-		
+		for (int a=1; a<=5; a++) {
+			for(int j=1; j<=a; j++) {
+				System.out.print(j);
+			}
+			System.out.println();
+		}
 	}
 
 }

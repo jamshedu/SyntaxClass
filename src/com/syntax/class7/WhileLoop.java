@@ -11,11 +11,11 @@ public class WhileLoop {
 		
 		System.out.println("______while loop_______");
 		
-	//	while (time <12){
+		while (time <12){
 			
-	//		System.out.println("Good morning");
+			System.out.println("Good morning");
 			
-	//	}
+	}
 		
 		while (time < 12) {
 			System.out.println("Good morning");

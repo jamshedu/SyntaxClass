@@ -6,11 +6,11 @@ public class TaskDiplom {
 		
 		
 		boolean hasDiplom = true;
-		double gPa = 3.4;
+		double gPa = 5;
 		
 		if (hasDiplom) {
 			System.out.println("Congratulation");
-			if (gPa>=3.5) {
+			if (gPa>=4.5) {
 				System.out.println("You are eligable  for scholarship");
 				
 			}else {

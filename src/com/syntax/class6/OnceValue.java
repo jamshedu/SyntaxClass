@@ -12,6 +12,8 @@ public class OnceValue {
 		 scan = new Scanner(System.in);
 		System.out.println("Please enter your country" );
          country = scan.nextLine();
+         
+         
         
          switch (country) {
          case "Tajikistan":

@@ -10,10 +10,10 @@ public class TaskLoan {
 			System.out.println("How much loan you need ");
 			int loan = task.nextInt();
 			
-			if (loan>200000) {
-				System.out.println("You have been rejected for a loan ");
+			if (loan<200000) {
+				System.out.println("You have been approved for a loan  ");
 			}else {
-				System.out.println("You have been approved for a loan ");
+				System.out.println("You have been rejected for a loan");
 			}
 		}
 

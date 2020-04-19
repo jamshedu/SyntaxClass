@@ -38,6 +38,8 @@ public class StringComparison {
 			System.out.println("Str1 is NOT equal to Str3");
 		}
 		
+		System.out.println(str2);
+		
 	}
 
 }

@@ -11,7 +11,7 @@ public class MoreNestedIf {
 		boolean isFriday = true;
 		int date =13;
 		
-		if (!isFriday) {
+		if (isFriday) {
 		System.out.println("Today is Friday, I am going to movie");
 		
 		if (date==13) {

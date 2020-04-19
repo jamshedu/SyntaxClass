@@ -17,7 +17,7 @@ public class TaskCitytemprature {
      cel = (far - 32)*5/9;
      //temp=(temp-32)*(5/9)
      
-     System.out.println("The temprature in the city of "+city +"is "+cel);
+     System.out.println("The temprature in the city of "+city +" is "+cel);
      
 	}
 

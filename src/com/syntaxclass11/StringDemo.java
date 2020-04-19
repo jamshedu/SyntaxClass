@@ -8,6 +8,10 @@ public class StringDemo {
          System.out.println(school.length());
          
          String str=new String ("Hello");
+         int size =str.length();
+         System.out.println("String length is "+size);
+         String newString = str+ " "+" "+ school;
+         System.out.println(newString);
          
          String str1 ="This a String 7676,&^&^";
          
@@ -16,11 +20,9 @@ public class StringDemo {
          
         
          
-         int size =str.length();
-         System.out.println("String length is "+size);
          
          // convert String to lowercase or uppercase
-         System.out.println("--------Touppercase / tolowercase function");
+         System.out.println("--------ToUppercase / tolowercase function");
          
          System.out.println(school.toUpperCase());
       System.out.println( str.toLowerCase());  
@@ -31,8 +33,7 @@ public class StringDemo {
        System.out.println("-----Concat function--------");  
        
       // concatinate 2 String
-    String newString = str+ " "+" "+ school;
-    System.out.println(newString);
+    
     
     String day ="Saturday ";
     String date=" 14";

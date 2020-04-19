@@ -25,15 +25,15 @@ public class TwoDimensionalArray {
 		
 		//print value 15
 		System.out.println(numbers[1][2]);
-
+     System.out.println("=======");
 	int [][]nums= { 
 			       {10, 20, 30, 40,},
-			       {5, 10, 15,20 },
+			       { 5, 10, 15, 20 },
 			       {1, 2, 3, 4}
 			     
 	           };
 	System.out.println(nums[2][3]);
-	System.out.println(nums[0][2]);
+	System.out.println(nums[0][3]);
 	}
 		
 

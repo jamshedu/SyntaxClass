@@ -18,7 +18,7 @@ public class ArrayIntro {
 		array[3]=40;
 		
 		//access elements from an array
-		System.out.println(array[1]);
+		System.out.println(array[0]);
 		
 		// 2 way
 		String [] carArray;
@@ -29,7 +29,7 @@ public class ArrayIntro {
 		carArray[1]="Honda";
 		carArray[2]="Toyota";
 		// i am driving "Toyota"
-		System.out.println("I am drivig "+carArray[2]);
+		System.out.println("I am drivig "+carArray[0]);
 		///////////////////////////////////
 		
 		int[] numbers=new int[3];
@@ -40,7 +40,7 @@ public class ArrayIntro {
 		
 		numbers[1]=2000;
 		
-		System.out.println(numbers[1]+numbers[0]);//2100
+		System.out.println(numbers[2]+numbers[1]);//2100
 	}
 
 }

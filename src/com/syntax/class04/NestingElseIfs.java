@@ -13,7 +13,7 @@ public class NestingElseIfs {
 		 */
 		
 		boolean quizCompleted = true ;
-		int score= 75;
+		int score= 60;
 		
 		if (quizCompleted) {
 			System.out.println("Let's check your score");
@@ -27,9 +27,10 @@ public class NestingElseIfs {
 				System.out.println("You failed");
 			}
 		}
-		else {}
+		else {
 		System.out.println("Plese do HW on time ");
-
+		}
+	
 	} 
 		
 	}

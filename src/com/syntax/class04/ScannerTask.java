@@ -15,10 +15,13 @@ public class ScannerTask {
 		System.out.println("Please enter your name ");
 		String name = scan.nextLine();
 		
+		System.out.println("Your lastname");
+		String lastName= scan.nextLine();
+		 
 		System.out.println("How old are you");
 		int age = scan.nextInt();
 		
-		System.out.println("Your name is "+name+" and your age is "+age);
+		System.out.println("Your name is "+name+" last name  is "+lastName+" and your age is "+age);
 
 		
 		 

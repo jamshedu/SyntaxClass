@@ -5,7 +5,7 @@ public class NestedIf {
 	public static void main(String[]args) {
 		
 		boolean classToday = true;
-		boolean flag = false;
+		boolean flag = true;
 		
 		if (flag) {
 			System.out.println("Hello");
