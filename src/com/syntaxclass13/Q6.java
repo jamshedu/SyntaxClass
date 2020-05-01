@@ -5,7 +5,7 @@ public class Q6 {
 	public static void main(String[] args) {
 		// write a Java program to find whether a String is palindrom or not ?
 		
-		String str = "radar kayak radar";
+		String str = "radar rar radar";
 				// 1st way
 			char []charArray=str.toCharArray();
 			String reverse ="";
@@ -23,7 +23,7 @@ public class Q6 {
 			}else {
 				System.out.println("No, it is not a plindrome ");
 			}
-				//HW use charAt() method to find if it is a palindrome
+				//HW use charAt() method to find if it is a polindrome 
 	}
 
 }

@@ -1,5 +1,7 @@
 package com.syntaxclass13;
 
+import javax.print.DocFlavor.STRING;
+
 public class Q4 {
 
 	public static void main(String[] args) {
@@ -13,10 +15,10 @@ public class Q4 {
 		int number=str.length();
 		System.out.println("Number of alpha character = "+number);
 		
-		String myString="Today is Wednesday and it is Java Class";
-		String[] array=myString.split(" ");
+		String MYSTRING="TODAY IS WEDNESDAY AND IT IS JAVA CLASS";
+		String[] array=MYSTRING.split(" ");
 		int words=array.length;
-		System.out.println("Total words in string:"+myString+" = "+words);
+		System.out.println("Total words in string:"+MYSTRING+" = "+words);
 		
 	}
 }

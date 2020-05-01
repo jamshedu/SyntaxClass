@@ -1,0 +1,45 @@
+package com.syntaxclass31;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class WriteExcel {
+
+	public static void main(String[] args) throws IOException {
+		
+		
+		String filePath =System.getProperty("user.dir")+"/testdata/TestData.xlsx";
+		
+		FileInputStream fis=new FileInputStream(filePath);
+		
+		Workbook book=new XSSFWorkbook(fis);
+		
+		//writing into exisisting sheet
+		Sheet sheet1=book.getSheet("Sheet4");
+		
+		
+		sheet1.getRow(0).createCell(5).setCellValue("Country");
+		
+		sheet1.createRow(3).createCell(0).setCellValue("James");
+		
+		Sheet customSheet=book.createSheet("TestSheet");
+		
+		FileOutputStream fos=new FileOutputStream(filePath);
+		
+		book.write(fos);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

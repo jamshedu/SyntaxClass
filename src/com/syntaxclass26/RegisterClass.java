@@ -2,9 +2,9 @@ package com.syntaxclass26;
 
 public class RegisterClass {
 	
-	String email;
-	String userName;
-	String password;
+	private String email;
+	private	String userName;
+	private	String password;
 	
 	public String getEmail() {
 		return email;
