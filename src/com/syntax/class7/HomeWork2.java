@@ -5,7 +5,7 @@ public class HomeWork2 {
 	public static void main(String[] args) {
 	
 		int num = 20;
-		while (num>=1) {
+		while (num>0) {
 			System.out.print(num + " ");
 			num-=2;
 			}

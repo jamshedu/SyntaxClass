@@ -14,15 +14,6 @@ public class WriteToPropertiesFile {
 		String filePath="/Users/dzhamshedumarov/eclipse-workspace/JavaProjects/configs/Examples.properties";
 		
 		
-		FileInputStream fis=new FileInputStream(filePath);
-		
-		Properties prop=new Properties();
-		prop.load(fis);
-		
-		prop.setProperty("phoneNumber", "3101197788");
-		
-		FileOutputStream fos=new FileOutputStream(filePath);
-		prop.store(fos, "Added additional key");
 	}
 
 }

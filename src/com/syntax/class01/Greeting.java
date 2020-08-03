@@ -1,8 +1,23 @@
 package com.syntax.class01;
 
-public class Greeting {
 
+
+public class Greeting {
+ 
 	public static void main(String[] args) {
+		
+		
+		int remainder= 0;
+		int reverse =0;
+		int number =54;
+		
+		
+		
+		
+		
+		
+	
+		
 		
 		
 		//println vs print

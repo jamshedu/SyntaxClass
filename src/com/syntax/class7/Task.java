@@ -18,7 +18,7 @@ public class Task {
 		// 2 way using mod and if condition
 		System.out.println("______________");
 		int num4 =1;
-		while (num4 % 2!= 0) {
+		while (num4 <20) {
 			if (num4 % 2!=0) {
 			System.out.println(num4);
 			

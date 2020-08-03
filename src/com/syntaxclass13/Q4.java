@@ -15,6 +15,8 @@ public class Q4 {
 		int number=str.length();
 		System.out.println("Number of alpha character = "+number);
 		
+	
+		
 		String MYSTRING="TODAY IS WEDNESDAY AND IT IS JAVA CLASS";
 		String[] array=MYSTRING.split(" ");
 		int words=array.length;

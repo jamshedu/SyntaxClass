@@ -10,12 +10,12 @@ public class FileReading {
 	public static void main(String[] args) throws IOException {
 		
 		
-		String filePath="/Users/dzhamshedumarov/eclipse-workspace/JavaProjects/configs/Examples.properties";
+		String filePath=System.getProperty("user.dir")+"/configs/Examples.properties";
 		System.out.println(filePath);
 		
 		String userDirectory=System.getProperty("user.dir");
 		System.out.println(userDirectory);
-		
+		 
 		String username=System.getProperty("user.name");
 		System.out.println(username);
 		

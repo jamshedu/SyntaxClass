@@ -17,8 +17,8 @@ public class PracticeClass8 {
 			}
 			
 		}
-		System.out.println(totalEven);
-		System.out.println(totalOdd);
+		System.out.println("Total even number is "+totalEven);
+		System.out.println("Total odd number is "+totalOdd);
 		
 		System.out.println("=======");
 		

@@ -14,7 +14,7 @@ public class Recope {
 		int total =2;
 		for ( int k =1; k<4; k++) {
 			total = total * 4;
-			System.out.print("Final "+total);
+			System.out.print(" Final "+total);
 		}
 	}
 

@@ -11,7 +11,7 @@ public class BreakAndContinue {
 			}
 			System.out.println(i);
 		}
-         System.out.println("I am outside of the loop ");
+         System.out.println(" I am outside of the loop ");
          
          System.out.println("=======");
          
@@ -35,13 +35,13 @@ public class BreakAndContinue {
         	 }
         	 System.out.print(i);
          }
-         System.out.println("+++++++++++++");
+         System.out.println("++++Print Xzz+++++++++");
          
          for (int x = 1; x<=100; x++) {
         	 if (x==55 || x==65 || x==75 || x==85 || x ==95) {
         		 continue;
         	 }
-        	 System.out.print(x);
+        	 System.out.print(x+" ");
          }
 	}
          

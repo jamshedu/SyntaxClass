@@ -4,6 +4,9 @@ public class Q3 {
 
 	public static void main(String[] args) {
 		
+		
+		
+		
 		/*
 		 * Write JP to print first 10 numbers of Fibonacci series
 		 * 0 1 1 2 3 5 8

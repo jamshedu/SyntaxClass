@@ -14,18 +14,19 @@ public class WhileLoop {
 		while (time <12){
 			
 			System.out.println("Good morning");
-			
+			time++;
 	}
 		
-		while (time < 12) {
-			System.out.println("Good morning");
-			time++;
-		}
+		
+	
+		
+		
 		// how to print number from 1 to 50 
 		int num =1 ;
 		while ( num<= 50) {
 			System.out.println(num);
 			num++;
+		}
 			
 			// how to  print numbers from 20 to 30
 			
@@ -38,18 +39,18 @@ public class WhileLoop {
 			
 			// how to print number from 5 to 15 all in 1 line 
 			
-			int num2 = 5;
+			int num2 = 1;
 			while (num2 <=5) {
 				System.out.println(num2 + " ");
 				num2++;
 				
 			}
-			// how to print value from 10 to 1 ?
-			// num3= 10;
+			System.out.println(" how to print value from 10 to 1 ?");
+			int num3= 10;
 			
-		//	while (num3>=1) {
-			//	System.out.println(num3);
-			//	num3--;
+			while (num3>=1) {
+				System.out.println(num3);
+				num3--;
 			}
 			
 			// how to print 50 to 
@@ -58,7 +59,7 @@ public class WhileLoop {
 			int sum1 =50;
 			while (sum1>=1) {
 				System.out.println(sum1);
-			sum1++;
+			sum1--;
 			
 		}
 

@@ -28,7 +28,7 @@ public class PracticeTask4 {
 			amount=amount+money;
 			if(money<price) {
 				remainingBalance=price-money;
-				System.out.println("Please give more" +remainingBalance);
+				System.out.println("Please give more " +remainingBalance);
 			}else if (money>price) {
 				change=money-price;
 				System.out.println("Here your change "+change);
